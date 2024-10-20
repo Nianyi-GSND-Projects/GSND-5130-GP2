@@ -4,6 +4,7 @@
 #set par(justify: true)
 #set cite(style: "alphanumeric")
 #set text(font: "Times New Roman")
+#show text.where(lang: "zh"): set text(font: "SimSun");
 #show link: set text(size: 0.9em, font: "Consolas")
 #set quote(quotes: true);
 #show quote: set text(style: "italic");
@@ -33,12 +34,12 @@
 
 		member(
 			name: "Nian'yi Wang",
-			localname: "王念一",
+			localname: text(lang: "zh")[王念一],
 			mail: "wang.nian@northeastern.edu"
 		),
 		member(
 			name: "Sadaf Nezameddini",
-			localname: "صدف نظام‌الدینی",
+			localname: text(lang: "fa")[صدف نظام‌الدینی],
 			mail: "nezameddini.s@northeastern.edu"
 		)
 	
