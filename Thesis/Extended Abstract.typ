@@ -76,11 +76,35 @@ The expected outcome of this research is providing valuable insights not only fo
 = Related Works
 
 Beside of players' disputes, the graphical interface of a video game is often discussed from two opposite aspects in academical literatures.
-One aspect stands on the players' subjective stance and tries to analyze the players' experiences; the other aspects evaluates the graphical interface by applying general design principles.
+One aspect stands on the players' subjective stance and tries to analyze the players' experiences; the other aspect evaluates the graphical interface by applying general design principles.
 
 == Player-centric
 
+The earliest usability studies on video games could be traced back to the beginning of the 2000 decade.
+
+_S. Cornett_'s study in 2004 examined usability challenges faced by new players of MMORPGs, the results of which showed that huge improvements for players that are not familiar with the target genre could be done @Cornett2004usability.
+
+In _H. Fricker_'s study in 2012, players were asked to play a collection of high-rated FPS games for a week-long period @fricker2012game.
+Follow-up surveys yielded some useful understandings of certain UI features used with the FPS game that players found the most helpful.
+We will try to follow these understandings in our research.
+
+_E. Bergman_ and _T. Hermansson_'s research in 2023 specifically studied the effect of one particular form of in-game GUIs---Head-up Display (HUD)---on game immersion @bergman2023effect.
+A group of experiment participants were asked to play _Fortnite_ while their biometric data were being measured.
+The results showed no significant effect of the choice of HUD design on game immersion, but the players' subjective rating were affected by the design.
+
 == Design Principle-based
+
+This style of approach started a bit later than the previous approach.
+
+In 2008, _Pinelle at al_ collected a wide range of game reviews and developed 10 usability heuristics based on the coded categories @Pinelle2008heuristic.
+
+_Desurvire_ and _Wiberg_ furtherly proposed a more refined and complete list of heuristics on game play in 2009 @Desurvire2009gameusability, called _Heuristics of Playability_ (PLAY) which can be applied game development to aid game developers in usability/playability research during the development cycle.
+
+Similar to @bergman2023effect, _Fagerholt_ and _Lorentzon_ tried a constructive approach by studying preliminary academical literatures in various related fields and formulating hypothesis how player immersion is connected to the user interfaces @fagerholt2009beyond.
+After evaluated by user studies and user tests, they proposed a set of guidelines that cover different aspects of the designing of an FPS game.
+
+Although with these heuristics it shall be easier to identify the usability problems in _Fortnite_, _Cheremnykh_'s research in 2024 showed that a one-size-fits-all approach to UX design or gamification may not be universally effective @cheremnykh2024gaming.
+Therefore in this research, we will be using the heuristics only as a general guidance instead of a fixed rulebook.
 
 // Bibliography
 
