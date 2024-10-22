@@ -111,16 +111,20 @@ Therefore in this research, we will be using the heuristics only as a general gu
 
 
 = Research Method
-We ask players with no prior experience playing _Fortnite_ to be our research participants. They participants are asked to perform two main tasks:
+We ask players with no prior experience playing _Fortnite_ to be our research participants. The participants would be asked to perform two tasks:
 
 + Play Session:
 	We ask participants to play a full round of Battle Royale mode in _Fortnite_ game. This takes about 20 minutes in total. 
+
 + Survey:
-	After the end of the play session, we send players a link to an online survey. These are the main parts of this survey:
+	After the end of the play session, we send players a link to an online survey, which investigates on the following aspects:
+
 	- Player information:
 		The survey starts with general questions to learn the player's gaming background and their preferences.
+
 	- Player feedback:
 		In this part, we ask players for direct feedback on their playing experience including usability questions.
+
 	- Player learning test:
 		In this part, we ask more detailed questions using images of specific interface elements. This approach helps ensure their responses accurately reflect their usability experience.
 
