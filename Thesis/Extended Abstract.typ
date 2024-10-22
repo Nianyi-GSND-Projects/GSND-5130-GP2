@@ -66,7 +66,9 @@ Our research sample consists of gamers with no prior experience playing _Fortnit
 
 We then will move to questions focused on their perceptions of different usability elements in the game, such as how easily they were able to navigate the game menus, how quickly they could find the information they needed on the screen, and what percentage of the interface elements they believe they understood.
 
-To gain deeper insights, we will include more detailed questions, using images of specific interface elements. Participants will be asked to explain the meaning and usage of these elements to verify their understanding. This approach helps ensure their responses accurately reflect their usability experience.
+To gain deeper insights, we will include more detailed questions,
+about specific graphical elements on the game screen. Participants will be asked to explain the meaning and usage of these elements to verify their understanding. 
+
 
 
 After all data is collected, we will analyze it by coding the player responses into categories.
@@ -106,6 +108,23 @@ After evaluated by user studies and user tests, they proposed a set of guideline
 
 Although with these heuristics it shall be easier to identify the usability problems in _Fortnite_, _Cheremnykh_'s research in 2024 showed that a one-size-fits-all approach to UX design or gamification may not be universally effective @cheremnykh2024gaming.
 Therefore in this research, we will be using the heuristics only as a general guidance instead of a fixed rulebook.
+
+
+= Research Method
+We ask players with no prior experience playing Fortnite to be our research participants. They participants are asked to perform two main tasks:
+
++ Play Session:
+	We ask participants to play a full round of Battle Royale mode in Fortnite game. This takes about 20 minutes in total. 
++ Survey:
+	After the end of the play session, we send players a link to an online survey. These are the main parts of this survey:
+	- Player information:
+		The survey starts with general questions to learn the player's gaming background and their preferences.
+	- Player feedback:
+		In this part, we ask players for direct feedback on their playing experience including usability questions.
+	- Player learning test:
+		In this part, we ask more detailed questions using images of specific interface elements. This approach helps ensure their responses accurately reflect their usability experience.
+		
+
 
 // Bibliography
 
