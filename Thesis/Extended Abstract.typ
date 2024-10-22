@@ -1,6 +1,6 @@
 // Preambles
 
-#set page(paper: "us-letter", margin: 0.8in)
+#set page(paper: "us-letter", margin: 1in)
 #set par(justify: true)
 #set cite(style: "alphanumeric")
 #set text(font: "Times New Roman")
@@ -60,7 +60,7 @@ Some players might feel lost in their first round of battle, as they are unfamil
 Also, some important systems of the game (like the building system) could be totally missed by new players.
 This is because there is no in-game guidance introducing these systems to the players. The only way for players to discover them is by observing other players using these mechanics during live gameplay. But by the time they need to use the system themselves, they still don't know how to do it.
 
-The problem we aim to address is the usability of Fortnite's interface for new players who are unfamiliar with the game. By interfaces, we mean the game lobby, menus, and HUD. Our study will focus on the learnability aspect of usability, as the challenges experienced by novice players are likely linked to their ability to learn and navigate the game's interface effectively.
+The problem we aim to address is the usability of _Fortnite_'s interface for new players who are unfamiliar with the game. By interfaces, we mean the game lobby, menus, and HUD. Our study will focus on the learnability aspect of usability, as the challenges experienced by novice players are likely linked to their ability to learn and navigate the game's interface effectively.
 
 Our research sample consists of gamers with no prior experience playing _Fortnite_. Participants will engage in a brief play session (one round of the _Battle royale_ mode) and then complete a detailed survey. The survey begins with general questions to understand the participants' gaming backgrounds and preferences.
 
@@ -74,7 +74,7 @@ about specific graphical elements on the game screen. Participants will be asked
 After all data is collected, we will analyze it by coding the player responses into categories.
 Then we will disscuss on each topic to see how they are reflected in the game and compare them to usability and design principles proposed by other researchers preliminarily.
 
-The expected outcome of this research is providing valuable insights not only for future Fortnite updates but also for game developers more broadly. We hope to offer practical design recommendations that prioritize novice-friendly interfaces without compromising complexity for experienced players.
+The expected outcome of this research is providing valuable insights not only for future _Fortnite_ updates but also for game developers more broadly. We hope to offer practical design recommendations that prioritize novice-friendly interfaces without compromising complexity for experienced players.
 
 = Related Works
 
@@ -111,10 +111,10 @@ Therefore in this research, we will be using the heuristics only as a general gu
 
 
 = Research Method
-We ask players with no prior experience playing Fortnite to be our research participants. They participants are asked to perform two main tasks:
+We ask players with no prior experience playing _Fortnite_ to be our research participants. They participants are asked to perform two main tasks:
 
 + Play Session:
-	We ask participants to play a full round of Battle Royale mode in Fortnite game. This takes about 20 minutes in total. 
+	We ask participants to play a full round of Battle Royale mode in _Fortnite_ game. This takes about 20 minutes in total. 
 + Survey:
 	After the end of the play session, we send players a link to an online survey. These are the main parts of this survey:
 	- Player information:
@@ -124,9 +124,7 @@ We ask players with no prior experience playing Fortnite to be our research part
 	- Player learning test:
 		In this part, we ask more detailed questions using images of specific interface elements. This approach helps ensure their responses accurately reflect their usability experience.
 
-		
-		
-
+Refer to @table:survey-questions in the appendix for the survey questions.
 
 // Bibliography
 
@@ -135,3 +133,30 @@ We ask players with no prior experience playing Fortnite to be our research part
 	style: "ieee"
 )
 
+= Appendix
+
+#show table.cell.where(y: 0): set text(weight: "bold")
+#figure(
+	caption: [The questions used in the survey.],
+	table(
+		columns: (3em, 1fr),
+		align: left,
+		stroke: none,
+		table.hline(stroke: 1pt),
+		table.header([No.], [Question]),
+		table.hline(stroke: 0.5pt),
+		[1], [What games do you usually play and what are your favorite genres?],
+		[2], [How many hours per week do you usually play games?],
+		[3], [Have you played any battle royale games (like PUBG/Unturned) previously? How familiar are you with this game mode?],
+		[4], [Have you encountered any trouble starting the game?],
+		[5], [What elements in the game world did you interact with? Briefly describe how you interacted with them.],
+		[6], [What weapons/props have you used in the play?],
+		[7], [Have you used the building mechanics in the game? Under what circumstances?],
+		[8], [Were you able to find the information you need easily on the screen?],
+		[9], [How do you feel about the game's UI? Is it too simple, too detailed, or just right?],
+		[10], [What is \[screenshot\] this UI element representing?],
+		[11], [How did you know the answer to the previous question? ],
+		[12], [Write anything you'd like to add about the game's UI.],
+		table.hline(stroke: 1pt),
+	)
+) <table:survey-questions>
