@@ -77,7 +77,6 @@
 
 = Introduction
 
-
 In 2017, _Epic Games_ released their online video game _Fortnite_.
 The game became a huge financial success quickly after being released, reaching over 10 million players within two weeks @wikipedia2024fortnite @josh2024howmany. Among its various game modes, _Battle Royale_ which is a competitive survival game mode, turns out to be the most popular one. @wikipedia2024fortnitebattleroyale.
 
@@ -92,7 +91,7 @@ This is because there is no in-game guidance introducing these systems to the pl
 
 The problem we aim to address is the usability of _Fortnite_'s interface for new players who are unfamiliar with the game. By interfaces, we mean the game lobby, menus, and HUD. Our study will focus on the learnability aspect of usability, as the challenges experienced by novice players are likely linked to their ability to learn and navigate the game's interface effectively.
 
-= Related Works
+= Related Work
 
 Beside of players' disputes, the graphical interface of a video game is often discussed from two opposite aspects in academical literatures.
 One aspect stands on the players' subjective stance and tries to analyze the players' experiences; the other aspect evaluates the graphical interface by applying general design principles.
@@ -147,6 +146,14 @@ about specific graphical elements on the game screen. Participants will be asked
 After all data is collected, we will analyze it by coding the player responses into categories.
 Then we will disscuss on each topic to see how they are reflected in the game and compare them to usability and design principles proposed by other researchers preliminarily.
 
+= results
+
+= Discussion
+
+= Limitations and Future Work
+
+= Conclusion
+
 ]
 
 // Bibliography
@@ -168,18 +175,25 @@ Then we will disscuss on each topic to see how they are reflected in the game an
 		table.hline(stroke: 1pt),
 		table.header([No.], [Question]),
 		table.hline(stroke: 0.5pt),
-		[1], [What games do you usually play and what are your favorite genres?],
-		[2], [How many hours per week do you usually play games?],
+		[1], [
+				Have you played any battle royale games (like _PUBG_/_Unturned_) previously?
+				How familiar are you with this genre/mode?
+		],
+		[2], [What's your thoughts on _Fortnite_ based on your first round of play?],
 		[3], [Have you played any battle royale games (like PUBG/Unturned) previously? How familiar are you with this game mode?],
-		[4], [Have you encountered any trouble starting the game?],
-		[5], [What elements in the game world did you interact with? Briefly describe how you interacted with them.],
-		[6], [What weapons/props have you used in the play?],
-		[7], [Have you used the building mechanics in the game? Under what circumstances?],
-		[8], [Were you able to find the information you need easily on the screen?],
-		[9], [How do you feel about the game's UI? Is it too simple, too detailed, or just right?],
-		[10], [What is \[screenshot\] this UI element representing?],
-		[11], [How did you know the answer to the previous question? ],
-		[12], [Write anything you'd like to add about the game's UI.],
+		[4], [Were you able to find the _Battle Royale_ mode easily?],
+		[5], [What weapons/props have you used in the play?],
+		[6], [
+			Did you build any structures in the game?
+			If yes, how did you learn the building mechanic?
+		],
+		[7], [Were you able to find the information you need easily on the screen?],
+		[9], [Did you find the on-screen signs and elements easy to understand?],
+		[10], [
+			\[Show a picture\]
+			Could you briefly explain the meaning of each of these numbers in this picture?
+			How did you learn them?
+		],
 		table.hline(stroke: 1pt),
 	)
 ) <table:survey-questions>
