@@ -155,36 +155,69 @@ Then we will disscuss on each topic to see how they are reflected in the game an
 = Results
 
 After the survey data is collected, we applied qualitative method on it by analyzing the important information and coding them into key themes.
-Below are the codes we've found in the data.
+Below are the themes we've found in the data.
 
-#show quote: set block(above: 0.8em, below: 0.8em)
 #show quote: set text(style: "italic")
+/*
+#show quote: set block(above: 0.8em, below: 0.8em)
 #show quote: set par(leading: 0.5em)
 #show quote: body => block(body, inset: (x: 0.5em))
+*/
+#set quote(block: false)
 
-== Lacking Clarity
+== Counter-intuitiveness and Lacking Clarity
 
-#quote[I don't know what this symbol mean. I don't know how to use that thing.]
+Most straight-forwardly, the game's UI are definitely causing confusions to players during gameplay:
+#quote[There were definitely a few moments of confusion, especially around building and combat.]
 
-== Difficulty on Finding Information
+Certain elements' visual appearances are designed poorly,
+#quote[The icons were too plain so I couldn't tell what they exactly meant.]
+Some others are confusing when put into the context along with other elements,
+#quote[When I pressed 1, I expected to switch my weapon to the pickaxe, but no, the pickaxe was at F. Press 1 to select the 2nd, that was a little bit weird.]
+#quote[I couldn't remember which number key to hit to switch to a specific weapon I want.]
 
-#quote[I couldn't find that info that I was looking for.]
+Some systems are so subtle or unfamiliar that the players could hardly learn to use them in a short time.
+#quote[The total system was beyond my control. I could hardly think of building when I encountered enemies.]
 
-== Simplicity/Minimalism
+== Lacking Simplicity/Minimalism
 
-#quote[Too much info that I didn't even look...]
+While some parts of the UI are hard to use, another serious issue is that there are too much information on the screen:
+#quote[Too much infomation all at once. I wasn't able to process everything the game was telling me.]
+#quote[The first minute of the first game can be very overwhelming with all this information in the screen and the pop-ups that just keep appearing.]
+It could be inferred that new players are not familiar with the UI language the game is using, otherwise there should be little issue on the first encountering.
+
+This does not only happen duing the gameplay, but also in the lobby:
+#quote[Not at first because the game showed me a lot of options. I think I saw _Battle Royale_ but when I clicked it, it showed me a cutscene of _Marvel_ characters, not sure why. After I skip it, it returned me to the lobby and then I found the button again, clicked it and the screen only scrolled up and I could press Solo Ranked or Play. Seems I was in _Battle Royale_ mode all along? Confusing. Weird and confusing.]
+This matches with the negative comments of the game's lobby UI on _Reddit_.
+
+Combined with the previous issue, it seems like only a very small portion of the game's UI is actually directly usable for new players.
 
 == Lacking Guidance
 
-#quote[I was looking for tutorials in the game but I couldn't find them.]
-#quote[I learned that by watching a quick tutorial on youtube.]
-#quote[I learned that by other players doing it. ]
+Theoretically, all these issues could be solved with a proper guidance before the first round of battle, but unfortunately, it seems like that the dev team of _Fortnite: Royale Battle_ never considered that as an option:
+#quote[The Battle Royale mode was easy to find. but other things could be tricky, such as the tutorial. I saw nowhere to play a tutorial. or does Fortnite have no tutorials at all?]
+Or there might be some, but very poorly designed, because it didn't meet its designed purpose at all:
+#quote[Not really, when it's your first game there are some pop-ups tutorial style with some information, but since you are figuring out everything else, I wasn't looking at them.]
+
+There are many "unfair settings" which if the players were not told to do so, they may never figure out how to do it on themselves:
+#quote[I dont know how to throw things I dont want in my bag.]
+#quote[I was button smashing to figure out which key does what.]
+
+There is one hotspot for this issue to happen: The building system.
+It is supposed to be serving for players to build architectures to protect themselves in the battles, but the system is novice to see among other games of similar genre, and there is no guidance to introduce it to new players.
+#quote[I didn't really understood how the material system worked nor how much I needed to build the walls or other type of structures.]
+#quote[I see the materials and build patterns at right below of HUD firstly. after I see others build strcuture to block my bullet, I learned when not in a battle.]
+So either a player couldn't have a chance to find it at all, or they might experience great difficulties on figuring it out.
+#quote[To learn the building mechanics, I relied on a mix of trial and error and watching a few quick tutorials that explained the basics.]
+#quote[I randomly pressed the keys and found that Q for building.]
 
 == Enjoyment
 
-It's interesting because even the players that complaint so much about the game, had a few moments of enjoyment.
-
+Although there are a lot of complaints about the game's interface, we also found some positive feedbacks, although very few:
 #quote[I enjoyed the game the second time I played. Doing that thing was so cool.]
+
+It is interesting to see this contrast of the amounts of the comments of both sides, because we surely didn't manipulate the player sample, nor designed inducible questions to get the desired results.
+It only leads to the conclusion that _Fortnite: Royale Battle_ is really unfriendly to new players.
 
 = Discussion
 
