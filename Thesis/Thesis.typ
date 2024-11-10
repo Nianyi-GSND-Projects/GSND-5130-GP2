@@ -6,6 +6,8 @@
 #set text(font: "Times New Roman")
 #show text.where(lang: "zh"): set text(font: "KaiTi")
 #show link: set text(size: 0.9em, font: "Consolas")
+#show heading.where(level: 1): set heading(numbering: "1")
+#show heading.where(level: 2): set text(size: 12pt)
 
 // Title
 
@@ -185,6 +187,32 @@ It's interesting because even the players that complaint so much about the game,
 #quote[I enjoyed the game the second time I played. Doing that thing was so cool.]
 
 = Discussion
+
+Inspecting through all the pre-existing heuristics in academical literatures, we found that, surprisingly, Nielsen's work in 1994 @nielsen1994enhancing matches our result best.
+After furtherly analyzed our results under the direction of Nielsen's heuristics, we recognized three major aspects where _Fortnite: Battle Royale_'s designers could work on to improve plaer experience.
+
+== Visibility of System Status & Consistency
+
+The game's interface fails to deliver information to players clearly and consistently.
+Certain symbols or icons are confusing to players, making them uncertain what the data appearing on screen means.
+Sometimes, the information players are looking for couldn't be easily found with one spot.
+These would cause unnecessary difficulties for new players who are yet unfamiliar with this game.
+
+== Recognition Rather Than Recall & Help and Documentation
+
+It is adviced that an user interface should minimize the user's memory load by making elements, actions, and options visible; that is, to let users recognize, rather than recall.
+It is so obvious that the game heavily relies on letting users recall.
+There are little visual guidance or official documentation provided within the game.
+Players would often need to seek for external help such as video tutorials to learn vital mechanisms.
+It would certainly augment the friendliness towards new players of the game if the development team could add proper guidance elements.
+
+== Aesthetic and Minimalist Design
+
+Interestingly, the results include mixed opinions regarding the game's information density.
+While some players feel overwhelmed by the amount of information presented, others appreciate the complexity.
+This divergence shows that there is a balance between the simplicity of the game interface and its richness.
+The game designers should take more care on thinking what's really needed for the game, and what could be hidden under the sublevels of the graphical interface.
+It is also possible to implement an adaptive UI system that could be customized based on players' preferences or level.
 
 = Limitations and Future Work
 
