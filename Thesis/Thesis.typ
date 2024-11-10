@@ -112,17 +112,21 @@ The results showed no significant effect of the choice of HUD design on game imm
 
 == Design Principle-based
 
-This style of approach started a bit later than the previous approach.
+Speaking on the general design principles, J. Nielsen has proposed a set of heuristics back in 1994 @nielsen1994enhancing.
+His work compared several published set of UI usability heuristics to determine what heuristics explain actual usability problems best.
 
-In 2008, _Pinelle at al_ collected a wide range of game reviews and developed 10 usability heuristics based on the coded categories @Pinelle2008heuristic.
+In 2008, usability heuristics on game UI started appearing.
+_Pinelle at al_ collected a wide range of game reviews and developed 10 usability heuristics based on the coded categories @Pinelle2008heuristic.
 
 _Desurvire_ and _Wiberg_ furtherly proposed a more refined and complete list of heuristics on game play in 2009 @Desurvire2009gameusability, called _Heuristics of Playability_ (PLAY) which can be applied game development to aid game developers in usability/playability research during the development cycle.
 
 Similar to @bergman2023effect, _Fagerholt_ and _Lorentzon_ tried a constructive approach by studying preliminary academical literatures in various related fields and formulating hypothesis how player immersion is connected to the user interfaces @fagerholt2009beyond.
 After evaluated by user studies and user tests, they proposed a set of guidelines that cover different aspects of the designing of an FPS game.
 
+/*
 Although with these heuristics it shall be easier to identify the usability problems in _Fortnite_, _Cheremnykh_'s research in 2024 showed that a one-size-fits-all approach to UX design or gamification may not be universally effective @cheremnykh2024gaming.
 Therefore in this research, we will use these previously proposed heuristics and frameworks only as a general guidance instead of a fixed rulebook.
+*/
 
 = Method
 
@@ -146,7 +150,39 @@ about specific graphical elements on the game screen. Participants will be asked
 After all data is collected, we will analyze it by coding the player responses into categories.
 Then we will disscuss on each topic to see how they are reflected in the game and compare them to usability and design principles proposed by other researchers preliminarily.
 
-= results
+= Results
+
+After the survey data is collected, we applied qualitative method on it by analyzing the important information and coding them into key themes.
+Below are the codes we've found in the data.
+
+#show quote: set block(above: 0.8em, below: 0.8em)
+#show quote: set text(style: "italic")
+#show quote: set par(leading: 0.5em)
+#show quote: body => block(body, inset: (x: 0.5em))
+
+== Lacking Clarity
+
+#quote[I don't know what this symbol mean. I don't know how to use that thing.]
+
+== Difficulty on Finding Information
+
+#quote[I couldn't find that info that I was looking for.]
+
+== Simplicity/Minimalism
+
+#quote[Too much info that I didn't even look...]
+
+== Lacking Guidance
+
+#quote[I was looking for tutorials in the game but I couldn't find them.]
+#quote[I learned that by watching a quick tutorial on youtube.]
+#quote[I learned that by other players doing it. ]
+
+== Enjoyment
+
+It's interesting because even the players that complaint so much about the game, had a few moments of enjoyment.
+
+#quote[I enjoyed the game the second time I played. Doing that thing was so cool.]
 
 = Discussion
 
@@ -159,7 +195,7 @@ Then we will disscuss on each topic to see how they are reflected in the game an
 // Bibliography
 
 #bibliography("bibliography.bib",
-	full: true,
+	// full: true,
 	style: "ieee"
 )
 
