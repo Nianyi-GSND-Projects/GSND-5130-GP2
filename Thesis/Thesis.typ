@@ -216,6 +216,28 @@ It is also possible to implement an adaptive UI system that could be customized 
 
 = Limitations and Future Work
 
+This is a small research project with a short time window for about one month.
+There certainly are some aspects which the research team wanted to but didn't have a chance to explore.
+
+- Sample size and demographics:
+	Our research only reached to a small group of players.
+	Their ideas might not be able to fully represent the full spectrum of _Fortnite_'s player base.
+	Although there is no standard of how big the sample needs to be in order to be qualified to represent the entire spectrum, it is always welcomed for future researchers to expand the base as much as possible within the range of their ability.
+
+- Methodological constraints:
+	Our research is based on survey questions.
+	This approach, while informative, may not be able to capture the full depth of players' experiences, especially the ones that were generated during gameplay.
+	If combined with other researching approaches, e.g. a think-aloud protocol, we could get grasp of a more complete view of players' experiences.
+
+- Lack of longitudinal perspective:
+	Our approach only focus on the first rounds of battle of new players,
+	but as the players keep playing the game, their perceptions might evolve over time as they become more familiar with it.
+	Future researchers could conduct longitudinal studies on a selective sample of _Fortnite_ players.
+
+- Absence of comparative analysis:
+	It's hard to say whether these issues are unique to this title or common across the genre without comparing _Fortnite_ to other battle royale games.
+	The easiest way to test this, we think, is to perform a quasi-experiment to test out if the addressed issues exist on other games of the same genre.
+
 = Conclusion
 
 ]
