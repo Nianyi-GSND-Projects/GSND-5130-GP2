@@ -230,6 +230,7 @@ The game's interface fails to deliver information to players clearly and consist
 Certain symbols or icons are confusing to players, making them uncertain what the data appearing on screen means.
 Sometimes, the information players are looking for couldn't be easily found with one spot.
 These would cause unnecessary difficulties for new players who are yet unfamiliar with this game.
+The visual designers should work on improving the problematic UI elements' apppearances to make them clearer.
 
 == Recognition Rather Than Recall & Help and Documentation
 
@@ -237,7 +238,7 @@ It is adviced that an user interface should minimize the user's memory load by m
 It is so obvious that the game heavily relies on letting users recall.
 There are little visual guidance or official documentation provided within the game.
 Players would often need to seek for external help such as video tutorials to learn vital mechanisms.
-It would certainly augment the friendliness towards new players of the game if the development team could add proper guidance elements.
+It would certainly augment the friendliness towards new players of the game if the development team could add proper guidance elements or system.
 
 == Aesthetic and Minimalist Design
 
@@ -273,6 +274,12 @@ There certainly are some aspects which the research team wanted to but didn't ha
 
 = Conclusion
 
+Noticing negative responses on _Fortnite: Royale Battle_'s UI design from its player base, we went on conducting a survey research to find out what's wrong.
+Three main issues are recognized on the game's UI design: counter-intuitivenes and lacking clarity, lacking simplicity/minimalism, and lacking guidance.
+The game's UI is surely causing substantial experiencing problems for new players.
+By analyzing with Nielsen's heuristics on UI design, we proposed several possible improvements: improving clarity of confusing elements, adding a proper guidance system, and strip unnecessary elements adaptively.
+We hope that our work could help make _Fortnite: Royale Battle_ a better game, as well as provide useful insights for the design of games of similar genre.
+
 ]
 
 // Bibliography
@@ -281,6 +288,8 @@ There certainly are some aspects which the research team wanted to but didn't ha
 	// full: true,
 	style: "ieee"
 )
+
+#pagebreak()
 
 = Appendix
 
