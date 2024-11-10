@@ -62,8 +62,8 @@
 		The 2017 video game _Fortnite_ developed by _Epic Games_ is one of the most popular battle royale game across the globe.
 		Albeit widely receiving positive reviews, there are players complaining about the game's graphical interface.
 		To investigate what gives the players bad experience, we conducted a usability research targeting on new players to this game.
-		The players would be asked to play the game for a short time, then take surveys to reflect their experience about the game's graphical interface.
-		By analyzing the collected data, we could gain guidance on possible improvements of _Fortnite_'s UI design, as well as insights for similar games in the future.
+		The players were asked to play the game for a short time, then take surveys to reflect their experience about the game's graphical interface.
+		By analyzing the collected data, we gained insights on possible improvements of _Fortnite_'s UI design, as well as insights for similar games in the future.
 	];
 
 	v(0.5em);
@@ -125,15 +125,9 @@ _Desurvire_ and _Wiberg_ furtherly proposed a more refined and complete list of 
 Similar to @bergman2023effect, _Fagerholt_ and _Lorentzon_ tried a constructive approach by studying preliminary academical literatures in various related fields and formulating hypothesis how player immersion is connected to the user interfaces @fagerholt2009beyond.
 After evaluated by user studies and user tests, they proposed a set of guidelines that cover different aspects of the designing of an FPS game.
 
-/*
-Although with these heuristics it shall be easier to identify the usability problems in _Fortnite_, _Cheremnykh_'s research in 2024 showed that a one-size-fits-all approach to UX design or gamification may not be universally effective @cheremnykh2024gaming.
-Therefore in this research, we will use these previously proposed heuristics and frameworks only as a general guidance instead of a fixed rulebook.
-*/
-
 = Method
 
-We ask players with no prior experience playing _Fortnite_.
-Participants would be asked to perform two tasks:
+We asked players with no prior experience playing _Fortnite_ to perform two tasks:
 
 + Play Session:
 	We ask participants to play a full round of Battle Royale mode in _Fortnite_ game. This takes about 20 minutes in total. 
@@ -142,19 +136,17 @@ Participants would be asked to perform two tasks:
 	After the end of the play session, we send players a link to an online survey.
 	Refer to @table:survey-questions in the appendix for the survey questions.
 
-The survey begins with general questions to understand the participants' gaming backgrounds and preferences.
+The survey began with general questions to understand the participants' gaming backgrounds and preferences.
 
-We then will move to questions focused on their perceptions of different usability elements in the game, such as how easily they were able to navigate the game menus, how quickly they could find the information they needed on the screen, and what percentage of the interface elements they believe they understood.
+We then moved on to questions focusing on their perceptions of different usability elements in the game, such as how easily they were able to navigate the game menus, how quickly they could find the information they needed on the screen, and what percentage of the interface elements they believe they understood.
 
-To gain deeper insights, we will include more detailed questions,
-about specific graphical elements on the game screen. Participants will be asked to explain the meaning and usage of these elements to verify their understanding. 
-
-After all data is collected, we will analyze it by coding the player responses into categories.
-Then we will disscuss on each topic to see how they are reflected in the game and compare them to usability and design principles proposed by other researchers preliminarily.
+To gain deeper insights, we included more detailed questions
+about specific graphical elements on the game screen.
+Participants were asked to explain the meaning and usage of these elements to verify their understanding.
 
 = Results
 
-After the survey data is collected, we applied qualitative method on it by analyzing the important information and coding them into key themes.
+We applied qualitative method on collected data by analyzing the important information and coding them into key themes.
 Below are the themes we've found in the data.
 
 #show quote: set text(style: "italic")
@@ -210,14 +202,6 @@ It is supposed to be serving for players to build architectures to protect thems
 So either a player couldn't have a chance to find it at all, or they might experience great difficulties on figuring it out.
 #quote[To learn the building mechanics, I relied on a mix of trial and error and watching a few quick tutorials that explained the basics.]
 #quote[I randomly pressed the keys and found that Q for building.]
-
-== Enjoyment
-
-Although there are a lot of complaints about the game's interface, we also found some positive feedbacks, although very few:
-#quote[I enjoyed the game the second time I played. Doing that thing was so cool.]
-
-It is interesting to see this contrast of the amounts of the comments of both sides, because we surely didn't manipulate the player sample, nor designed inducible questions to get the desired results.
-It only leads to the conclusion that _Fortnite: Royale Battle_ is really unfriendly to new players.
 
 = Discussion
 
@@ -276,7 +260,7 @@ There certainly are some aspects which the research team wanted to but didn't ha
 
 Noticing negative responses on _Fortnite: Royale Battle_'s UI design from its player base, we went on conducting a survey research to find out what's wrong.
 Three main issues are recognized on the game's UI design: counter-intuitivenes and lacking clarity, lacking simplicity/minimalism, and lacking guidance.
-The game's UI is surely causing substantial experiencing problems for new players.
+The game's UI is surely causing substantial experiencing problems for new players who are not yet familiar with its mechanisms.
 By analyzing with Nielsen's heuristics on UI design, we proposed several possible improvements: improving clarity of confusing elements, adding a proper guidance system, and strip unnecessary elements adaptively.
 We hope that our work could help make _Fortnite: Royale Battle_ a better game, as well as provide useful insights for the design of games of similar genre.
 
